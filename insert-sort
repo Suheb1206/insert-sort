@@ -18,15 +18,15 @@ void insertsort(int A[],int n)
 }
 int main()
 {
-    int arr[] = { 14, 10, 12, 2, 4 };
-    int n = sizeof(arr) / sizeof(arr[0]);
- 
-    insertSort(arr, n);
-    
-    	for(i=0;i<n;i++)
-	    {
-	  	  cout<<A[i]<<" ";
-	    }
- 
-    return 0;
+	int i;
+	int A[]={8,5,2,3,7,13,4,1,10,15,24};
+	int n;
+	n=sizeof(A)/sizeof(int);
+	
+	countsort(A,n);
+	
+	for(i=0;i<n;i++)
+	{
+		cout<<A[i]<<" ";
+	}
 }
